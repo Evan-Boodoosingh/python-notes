@@ -25,7 +25,7 @@ python-notes/
 
 ## Inside each topic notebook
 
-**Part 1: Notes** is the page I fill in, top to bottom:
+Fill it in top to bottom:
 
 - **Overview:** big idea, key terms, general notes from the lesson.
 - **Sections:** one per course example, three cells in this order: title,
@@ -34,9 +34,8 @@ python-notes/
 - **Experiments:** change the examples, break things, note what happened.
 - **Write it cold:** the end of every topic. No scrolling up.
 
-**Part 2: Parts Kit** is at the bottom: labeled blocks to copy into Part 1
-(blank section, filled-in example, practice cell, gotcha, error log,
-Python vs JavaScript table, question, key term).
+**Extras** at the bottom (Gotcha, Error log, Question): copy them where
+needed and delete the ones I don't use.
 
 To copy cells, click the first one, Shift+click the last, press **C**, click
 where it should go, and press **V**. The **Outline** panel in the sidebar
