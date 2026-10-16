@@ -1,0 +1,22 @@
+{
+  "Notes section": {
+    "scope": "markdown",
+    "prefix": "section",
+    "body": [
+      "---",
+      "## ${1:Section Title}",
+      "",
+      "**What it does:** $2",
+      "",
+      "",
+      "**Why it works:** $3",
+      "",
+      "",
+      "**Output:** $4",
+      "",
+      "",
+      "**Notes to self:** $0"
+    ],
+    "description": "Notes block for a code example"
+  }
+}
