@@ -12,6 +12,7 @@ python-notes/
   recall-log.md             tracks what I can write cold, and on which days
   templates/
     topic-template.ipynb    copy this for every new topic
+    experiment-template.ipynb  just experiments: predict, run, explain
   unit-01/                  one folder per unit
     strings.ipynb           one notebook per topic
 ```
