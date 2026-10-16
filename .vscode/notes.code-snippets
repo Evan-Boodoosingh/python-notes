@@ -1,22 +1,22 @@
 {
-  "Notes section": {
+  "Notes for a code example": {
     "scope": "markdown",
-    "prefix": "section",
+    "prefix": "notes",
     "body": [
-      "---",
-      "## ${1:Section Title}",
+      "**What it does:** ${1:In one or two sentences, what happens when this runs?}",
       "",
-      "**What it does:** $2",
+      "**Why it works:** ${2:What Python rule makes this happen?}",
       "",
-      "",
-      "**Why it works:** $3",
-      "",
-      "",
-      "**Output:** $4",
-      "",
+      "**Output:** ${3:Exactly what printed}",
       "",
       "**Notes to self:** $0"
     ],
-    "description": "Notes block for a code example"
+    "description": "Notes cell that goes under a code example"
+  },
+  "Section title": {
+    "scope": "markdown",
+    "prefix": "section",
+    "body": ["---", "## ${1:Section Title}$0"],
+    "description": "Title cell that starts a new section"
   }
 }

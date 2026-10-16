@@ -25,13 +25,15 @@ python-notes/
 
 ## Inside each topic notebook
 
-**Section blocks:** one per course example. The Markdown cell holds the notes
-(what it does, why it works, output, notes to self). The code cell under it
-holds the course code with `#` comments on the important pieces.
+**Sections:** one per course example, three cells in this order:
+1. Title cell: `## Example name`
+2. Code cell: the course code with `#` comments on lines I'd forget. Run it
+   first with **Shift+Enter** so the output shows.
+3. Notes cell: answer What it does, Why it works, Output, Notes to self.
 
-To add a section, select the notes cell and the code cell (click, then
-Shift+click), press **C** to copy, click the last cell, and press **V** to
-paste. Or type `section` in a new Markdown cell and press **Tab**.
+To add a section, click the title cell, Shift+click the notes cell, press
+**C**, click the last cell, and press **V**. Shortcuts in a new Markdown
+cell: `section` + **Tab** for a title, `notes` + **Tab** for the questions.
 
 **Experiments:** practice space. Change the examples, write my own versions,
 break things on purpose, and note what happened.
