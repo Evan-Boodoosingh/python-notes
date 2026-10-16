@@ -10,6 +10,7 @@ in VS Code, not Cursor, so those settings apply.
 python-notes/
   README.md                 this file
   recall-log.md             tracks what I can write cold, and on which days
+  scratchpad.py             free play in the console (terminal)
   templates/
     topic-template.ipynb    copy this for every new topic
     experiment-template.ipynb  just experiments: predict, run, explain
@@ -54,6 +55,13 @@ If a variable acts strange, cells may be remembering old values. Click
 Longer practice programs (input, several steps, a result) go in their own
 `.py` file inside the unit folder. Run them with the play button in the
 top right.
+
+## Playing in the console
+
+`scratchpad.py` is for messing around. Run it with the play button and the
+output shows in the terminal. For instant one-liners, type `python3` in the
+terminal to open the interactive console (like the browser console in
+JavaScript). Type `exit()` to leave.
 
 ## The rule
 
