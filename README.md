@@ -25,20 +25,23 @@ python-notes/
 
 ## Inside each topic notebook
 
-**Sections:** one per course example, three cells in this order:
-1. Title cell: `## Example name`
-2. Code cell: the course code with `#` comments on lines I'd forget. Run it
-   first with **Shift+Enter** so the output shows.
-3. Notes cell: answer What it does, Why it works, Output, Notes to self.
+**Part 1: Notes** is the page I fill in, top to bottom:
 
-To add a section, click the title cell, Shift+click the notes cell, press
-**C**, click the last cell, and press **V**. Shortcuts in a new Markdown
-cell: `section` + **Tab** for a title, `notes` + **Tab** for the questions.
+- **Overview:** big idea, key terms, general notes from the lesson.
+- **Sections:** one per course example, three cells in this order: title,
+  code (run it first with **Shift+Enter**), then notes (What it does, Why it
+  works, Output, Notes to self).
+- **Experiments:** change the examples, break things, note what happened.
+- **Write it cold:** the end of every topic. No scrolling up.
 
-**Experiments:** practice space. Change the examples, write my own versions,
-break things on purpose, and note what happened.
+**Part 2: Parts Kit** is at the bottom: labeled blocks to copy into Part 1
+(blank section, filled-in example, practice cell, gotcha, error log,
+Python vs JavaScript table, question, key term).
 
-**Write it cold:** the end of every topic. No scrolling up.
+To copy cells, click the first one, Shift+click the last, press **C**, click
+where it should go, and press **V**. The **Outline** panel in the sidebar
+jumps to any heading. Shortcuts in a new Markdown cell: `section` + **Tab**
+for a title, `notes` + **Tab** for the questions.
 
 ## Running code
 
